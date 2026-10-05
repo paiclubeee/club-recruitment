@@ -576,7 +576,7 @@ function updateCountdown(){
   const now = new Date().getTime();
   const diff = deadline - now;
   if (diff < 0){
-    document.getElementById('countdown').innerHTML = '<h3 style="color:#f9ca24;font-size:24px;">⏰ Application sed</h3>';
+    document.getElementById('countdown').innerHTML = '<h3 style="color:#f9ca24;font-size:24px;">⏰ Application Open Now</h3>';
     return;
   }
   const days = Math.floor(diff / (1000*60*60*24));
